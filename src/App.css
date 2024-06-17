@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: rgb(30, 106, 174);
+}
+
+.navsection {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(93, 93, 117);
+  color: wheat;
+}
+
+.proImage {
+  width: 100%;
+}
+
+.protitle h2 {
+  margin: 10px;
+}
+
+.submenu ul li {
+  list-style: none;
+  margin: 20px;
+  margin-top: 10px;
+}
+
+.submenu ul {
+  display: inline-flex;
+}
+
+.submenu {
+  background-color: rgb(36, 23, 49);
+  color: silver;
+  height: 50px;
+}
+
+.proSection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.imageBox {
+  width: calc(20% - 16px);
+  box-sizing: border-box;
+}
+
+.imageBox img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pageSection {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+}
+
+.pageImg {
+  width: 250px;
+  height: 250px;
+}
+
+.pageImg img {
+  width: 100%;
+}
+
+.ind-image {
+  width: 500px;
+  height: 500px;
+}
+
+.ind-image img {
+  width: 100%;
+}
+
+.ind-section {
+  display: flex;
+}
+
+.fullpage {
+  display: flex;
+}
+
+.pro-selected {
+  width: 30%;
+  border: 1px solid black;
+}
+
+.pro-input input {
+  margin: 5px;
+}
